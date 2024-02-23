@@ -1,0 +1,79 @@
+.app_course {
+    flex-direction: column;
+    background: black;
+}
+
+.app_course-title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.app_course-main {
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.app_course-main_heading {
+    font-family: "ZCOOL XiaoWei", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 0.04em;
+    color: white;
+}
+
+.app_course-main_container {
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+}
+
+.app_course_main-img {
+    width: 400px;
+    margin: 0 2rem;
+}
+
+.app_course_main-img img {
+    width: 400px;
+    height: auto;
+}
+
+.app_course_main_items {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+    .app_course-main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .app_course-main_img {
+        margin: 3rem;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .app_course-main_img img{
+        width: 80%;
+    }
+
+    .app_course-main_heading {
+        font-size: 35px;
+        line-height: 48.5px;
+    }
+}

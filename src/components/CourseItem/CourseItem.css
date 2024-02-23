@@ -1,0 +1,35 @@
+.app_courseitem {
+    width: 100%;
+    margin: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.app_courseitem-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app_courseitem-sub {
+    width: 100%;
+    margin-top: 0 0.2rem;
+}
+
+.app_courseitem-name {
+    flex: 1;
+}
+
+.app_courseitem-dash {
+    width: 90px;
+    height: 1px;
+    background: gold;
+    margin: 0 1rem;
+}
+
+.app_courseitem-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

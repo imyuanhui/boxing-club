@@ -1,0 +1,124 @@
+.app_navbar {
+    width: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+    color: white;
+    background-color: black;
+}
+
+.app_navbar-logo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.app_navbar-logo img {
+    width: 200px;
+}
+
+.app_navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+}
+
+.app_navbar-links li {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.app_navbar-links a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.5s ease;
+}
+
+.app_navbar-links a:hover {
+    color: gold;
+}
+
+.app_navbar-smallscreen {
+    display: none;
+}
+
+.app_navbar-smallscreen_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    transition: 0.5s ease;
+
+    z-index: 5;
+}
+
+.app_navbar-smallscreen_overlay .app_navbar_overlay-close {
+    font-size: 30px;
+    color: gold;
+    cursor: pointer;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.app_navbar-smallscreen_overlay-links {
+    list-style: none;
+}
+
+.app_navbar-smallscreen_overlay-links li {
+    text-decoration: none;
+    margin: 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Noto Serif SC", serif;
+}
+
+.app_navbar-smallscreen_overlay-links a {
+    text-decoration: none;
+    color: gold;
+}
+
+.app_navbar-smallscreen_overlay-links a:hover {
+    color: white;
+}
+
+
+@media screen and (max-width: 2000px) {
+    .app_navbar-logo img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app_navbar-links {
+        display: none;
+    }
+
+    .app_navbar-smallscreen {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app_navbar {
+        padding: 1rem;
+    }
+
+    .app_navbar-logo img {
+        width: 100px;
+    }
+} 
+
+

@@ -1,0 +1,45 @@
+.app_video {
+    width: 100vw;
+    position: relative;
+}
+
+.app_video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app_video-overlay {
+    position: absolute;
+    inset: 0;
+}
+
+
+.app_video-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+.app_video-overlay_icon {
+    height: 100px;
+    width: 100px;
+    opacity: 0;
+    z-index: 100;
+}
+
+.app_video-overlay:hover .app_video-overlay_icon{
+    opacity: 2;
+    transition: .5s ease
+}
+
+
+@media screen and (max-width:650px) {
+    .app_video-overlay_icon {
+        height: 50px;
+        width: 50px;
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/boxing-club/static/css/main.c750ccf3.css",
+    "main.js": "/boxing-club/static/js/main.bc73a739.js",
+    "static/media/video.mp4": "/boxing-club/static/media/video.c95528a727ba84f2f2ce.mp4",
+    "static/media/environment.jpg": "/boxing-club/static/media/environment.906a92fed434f0fa6c86.jpg",
+    "static/media/gloves.png": "/boxing-club/static/media/gloves.ddc6847e823090c1b16b.png",
+    "static/media/coach.jpg": "/boxing-club/static/media/coach.a638ab52483fadfb9d3a.jpg",
+    "static/media/boxer.jpg": "/boxing-club/static/media/boxer.7189c6ebc5d6e19d755b.jpg",
+    "static/media/logo.png": "/boxing-club/static/media/logo.a2a1850837c7601ecfeb.png",
+    "static/media/punching_bag.png": "/boxing-club/static/media/punching_bag.e9fb16a80dc63ccedc05.png",
+    "static/media/p3.jpg": "/boxing-club/static/media/p3.0a1490bf24c1443e409f.jpg",
+    "static/media/p4.jpg": "/boxing-club/static/media/p4.f24b4f5773bd336f2ac8.jpg",
+    "static/media/p1.jpg": "/boxing-club/static/media/p1.f7435d5630810967875b.jpg",
+    "static/media/p2.jpg": "/boxing-club/static/media/p2.c5504275d11c91c6f65f.jpg",
+    "index.html": "/boxing-club/index.html",
+    "main.c750ccf3.css.map": "/boxing-club/static/css/main.c750ccf3.css.map",
+    "main.bc73a739.js.map": "/boxing-club/static/js/main.bc73a739.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c750ccf3.css",
+    "static/js/main.bc73a739.js"
+  ]
+}
